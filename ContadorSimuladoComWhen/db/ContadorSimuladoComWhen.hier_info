@@ -1,0 +1,13 @@
+|ContadorSimuladoComWhen
+ENTRADA[0] => LessThan0.IN8
+ENTRADA[0] => LessThan1.IN8
+ENTRADA[1] => LessThan0.IN7
+ENTRADA[1] => LessThan1.IN7
+ENTRADA[2] => LessThan0.IN6
+ENTRADA[2] => LessThan1.IN6
+ENTRADA[3] => LessThan0.IN5
+ENTRADA[3] => LessThan1.IN5
+SAIDA[0] << SAIDA[0].DB_MAX_OUTPUT_PORT_TYPE
+SAIDA[1] << SAIDA[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
