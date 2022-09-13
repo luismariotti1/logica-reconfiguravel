@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY Mux4Por1ComVetores IS
+    PORT (
+        ENTRADA : IN STD_LOGIC_VECTOR(0 TO 3);
+        SELETOR : IN STD_LOGIC_VECTOR(0 TO 1);
+        SAIDA : OUT STD_LOGIC
+    );
+
+END Mux4Por1ComVetores;
+
+ARCHITECTURE logica OF Mux4Por1ComVetores IS
+    SIGNAL x : STD_LOGIC_VECTOR(0 TO 3);
+BEGIN
+    x(0) <= ENTRADA(0) AND (NOT SELETOR(0)) AND (NOT SELETOR(1));
+    x(1) <= ENTRADA(1) AND (NOT SELETOR(0)) AND (SELETOR(1));
+    x(2) <= ENTRADA(2) AND (SELETOR(0)) AND (NOT SELETOR(1));
+    x(3) <= ENTRADA(3) AND (SELETOR(0)) AND (SELETOR(1));
+
+    SAIDA <= x(0) OR x(1) OR x(2) OR x(3);
+END logica;

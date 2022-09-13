@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY Mux4Por1ComVetores IS
+    PORT (
+        ENTRADA : IN STD_LOGIC;
+        SAIDA : OUT STD_LOGIC;
+    );
+
+END Mux4Por1ComVetores;
+
+ARCHITECTURE logica OF Mux4Por1ComVetores IS
+BEGIN
+    SAIDA <= ENTRADA;
+    
+END logica;
