@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY Mux2Por1WhenElse IS
+    PORT (
+        A , B : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+        SELETOR : IN STD_LOGIC;
+        SAIDA : OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+    );
+
+END Mux2Por1WhenElse;
+
+ARCHITECTURE logica OF Mux2Por1WhenElse IS
+BEGIN
+    SAIDA <= A WHEN SELETOR = '1' ELSE B;
+END logica;
