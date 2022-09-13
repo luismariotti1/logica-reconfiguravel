@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/port_AND/LogicAND.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/port_AND/db/LogicAND.cbx.xml
+design_name = LogicAND
+instance = comp, \out1~output\, out1~output, LogicAND, 1
+instance = comp, \in1~input\, in1~input, LogicAND, 1
+instance = comp, \in2~input\, in2~input, LogicAND, 1
+instance = comp, \out1~0\, out1~0, LogicAND, 1

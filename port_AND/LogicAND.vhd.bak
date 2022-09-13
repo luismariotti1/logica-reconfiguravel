@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA1 is
+    port (in1: in std_logic;
+        in2: in std_logic;
+        in3: in std_logic;
+        saida1: out std_logic;
+        saida2: out std_logic
+    );
+end FPGA1;
+
+architecture logica of FPGA1 is
+begin
+    saida1 <= (in1 and in2) or (in3);
+    saida2 <= (in3 xor in2) and not (in3);
+end logica;
+
