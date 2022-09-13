@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Sum",
+					"strict" : false
+				},
+				{
+					"name" : "CarryOut",
+					"strict" : false
+				},
+				{
+					"name" : "A",
+					"strict" : false
+				},
+				{
+					"name" : "B",
+					"strict" : false
+				},
+				{
+					"name" : "CarryIn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

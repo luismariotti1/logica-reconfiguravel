@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/SomadorCompleto/SomadorCompleto.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/SomadorCompleto/db/SomadorCompleto.cbx.xml
+design_name = SomadorCompleto
+instance = comp, \Sum~output\, Sum~output, SomadorCompleto, 1
+instance = comp, \CarryOut~output\, CarryOut~output, SomadorCompleto, 1
+instance = comp, \A~input\, A~input, SomadorCompleto, 1
+instance = comp, \B~input\, B~input, SomadorCompleto, 1
+instance = comp, \CarryIn~input\, CarryIn~input, SomadorCompleto, 1
+instance = comp, \Sum~0\, Sum~0, SomadorCompleto, 1
+instance = comp, \CarryOut~0\, CarryOut~0, SomadorCompleto, 1

@@ -1,0 +1,11 @@
+|SomadorCompleto
+A => x.IN0
+A => CarryOut.IN0
+B => x.IN1
+B => CarryOut.IN1
+CarryIn => Sum.IN1
+CarryIn => CarryOut.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+CarryOut <= CarryOut.DB_MAX_OUTPUT_PORT_TYPE
+
+
