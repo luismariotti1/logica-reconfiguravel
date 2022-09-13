@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/Vetor2BitsSaidaX/Vetor2BitsSaidaX.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/Vetor2BitsSaidaX/db/Vetor2BitsSaidaX.cbx.xml
+design_name = Vetor2BitsSaidaX
+instance = comp, \X[0]~output\, X[0]~output, Vetor2BitsSaidaX, 1
+instance = comp, \X[1]~output\, X[1]~output, Vetor2BitsSaidaX, 1
+instance = comp, \A[0]~input\, A[0]~input, Vetor2BitsSaidaX, 1
+instance = comp, \A[1]~input\, A[1]~input, Vetor2BitsSaidaX, 1

@@ -1,0 +1,15 @@
+-- make a program that receive a vector of two bits in input A, and put it in the X out
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY Vetor2BitsSaidaX IS
+    PORT (
+        A : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+        X : OUT STD_LOGIC_VECTOR(1 DOWNTO 0)
+    );
+END Vetor2BitsSaidaX;
+
+ARCHITECTURE logic OF Vetor2BitsSaidaX IS
+BEGIN
+    X <= A;
+END logic;
