@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ruimdows/Desktop/logica-reconfiguravel/port_OR/simulation/qsim
+Elogicor
+Z1 w1663098011
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8LogicOR.vho
+Z9 FLogicOR.vho
+l0
+L34
+V@8N22:?MM:Uk[6QVeN>Ga0
+!s100 R8j7GO8VDU=MF8^7EG<H73
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1663098013
+!i10b 1
+Z12 !s108 1663098012.000000
+Z13 !s90 -work|work|LogicOR.vho|
+Z14 !s107 LogicOR.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 logicor 0 22 @8N22:?MM:Uk[6QVeN>Ga0
+l60
+L42
+V2olH6i:Cl7bOT<O^Lo16>2
+!s100 gKV7ib2X=iF:H7ol^;zdj0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Elogicor_vhd_vec_tst
+Z17 w1663098010
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VQETF1;cP1b7@:8Sc=dbRh2
+!s100 2]IL@;dC1c9ke7Com;1]31
+R10
+32
+R11
+!i10b 1
+Z20 !s108 1663098013.000000
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Alogicor_arch
+R5
+R6
+DEx4 work 19 logicor_vhd_vec_tst 0 22 QETF1;cP1b7@:8Sc=dbRh2
+l46
+L33
+VmP;9eSoL3Kzi1V6BNcl4S3
+!s100 TSOogI:o[8G:F_OQ7Z]DF3
+R10
+32
+R11
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R15
+R16

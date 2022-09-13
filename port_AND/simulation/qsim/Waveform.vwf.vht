@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "09/13/2022 16:15:12"
+-- Generated on "09/13/2022 16:30:15"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          LogicAND
 -- 
@@ -40,7 +40,7 @@ COMPONENT LogicAND
 	PORT (
 	in1 : IN STD_LOGIC;
 	in2 : IN STD_LOGIC;
-	out1 : OUT STD_LOGIC
+	out1 : BUFFER STD_LOGIC
 	);
 END COMPONENT;
 BEGIN

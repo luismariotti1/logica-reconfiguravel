@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "09/13/2022 16:15:14"
+-- DATE "09/13/2022 16:30:17"
 
 -- 
 -- Device: Altera EP4CE22F17C6 Package FBGA256
@@ -35,7 +35,7 @@ ENTITY 	LogicAND IS
     PORT (
 	in1 : IN std_logic;
 	in2 : IN std_logic;
-	out1 : OUT std_logic
+	out1 : BUFFER std_logic
 	);
 END LogicAND;
 

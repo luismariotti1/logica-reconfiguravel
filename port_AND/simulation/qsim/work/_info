@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Ruimdows/Desktop/logica-reconfiguravel/port_AND/simulation/qsim
 Elogicand
-Z1 w1663096514
+Z1 w1663097417
 Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
 Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
 Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
@@ -21,13 +21,13 @@ Z8 8LogicAND.vho
 Z9 FLogicAND.vho
 l0
 L34
-V]>czifLVNYJdkX?<=fhn[3
-!s100 GVGNIBnLODMI5ZWo>gh;Z1
+Vi1T6Sd541h]Ec[hXZz^<80
+!s100 [DoMc61M3j770l4E]<cBE3
 Z10 OV;C;10.5b;63
 32
-Z11 !s110 1663096515
+Z11 !s110 1663097418
 !i10b 1
-Z12 !s108 1663096515.000000
+Z12 !s108 1663097418.000000
 Z13 !s90 -work|work|LogicAND.vho|
 Z14 !s107 LogicAND.vho|
 !i113 1
@@ -40,7 +40,7 @@ R4
 R5
 R6
 R7
-DEx4 work 8 logicand 0 22 ]>czifLVNYJdkX?<=fhn[3
+DEx4 work 8 logicand 0 22 i1T6Sd541h]Ec[hXZz^<80
 l60
 L42
 VZ1F`jCQVYBUh^;OdQSkdX1
@@ -56,7 +56,7 @@ R14
 R15
 R16
 Elogicand_vhd_vec_tst
-Z17 w1663096512
+Z17 w1663097415
 R5
 R6
 R0
@@ -79,11 +79,11 @@ R16
 Alogicand_arch
 R5
 R6
-DEx4 work 20 logicand_vhd_vec_tst 0 22 0R2_DgKM1[dRMLWXzHMiN1
+Z22 DEx4 work 20 logicand_vhd_vec_tst 0 22 0R2_DgKM1[dRMLWXzHMiN1
 l46
 L33
-VcmO9HoL0zZIVk2NLAS?N80
-!s100 2UNDIiLzXmC8eE::jKhPm1
+V8JOZfgBMjf8<NFl^Wd=hd3
+!s100 8JW5ZG6j1L8;afg=4H=5W3
 R10
 32
 R11
