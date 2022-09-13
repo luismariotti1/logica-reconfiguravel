@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SAIDA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SAIDA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SELETOR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SELETOR[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
