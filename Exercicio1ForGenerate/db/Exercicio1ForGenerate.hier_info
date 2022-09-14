@@ -1,0 +1,11 @@
+|Exercicio1ForGenerate
+D[5] => AUX.IN1
+D[4] => AUX[1].IN1
+D[3] => AUX[0].IN1
+D[2] => X.IN0
+D[1] => X.IN0
+D[1] => X.IN1
+D[0] => X.IN1
+S <= AUX.DB_MAX_OUTPUT_PORT_TYPE
+
+
