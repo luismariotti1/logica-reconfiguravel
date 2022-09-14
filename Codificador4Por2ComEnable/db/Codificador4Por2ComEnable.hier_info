@@ -1,0 +1,19 @@
+|Codificador4Por2ComEnable
+A[0] => Mux0.IN19
+A[0] => Mux1.IN19
+A[0] => Mux2.IN19
+A[1] => Mux0.IN18
+A[1] => Mux1.IN18
+A[1] => Mux2.IN18
+A[2] => Mux0.IN17
+A[2] => Mux1.IN17
+A[2] => Mux2.IN17
+A[3] => Mux0.IN16
+A[3] => Mux1.IN16
+A[3] => Mux2.IN16
+ENABLE => Y[0].OE
+ENABLE => Y[1].OE
+Y[0] <= Y[0].DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
