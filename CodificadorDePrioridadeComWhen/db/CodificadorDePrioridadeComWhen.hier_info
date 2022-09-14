@@ -1,0 +1,10 @@
+|CodificadorDePrioridadeComWhen
+P[0] => C.DATAA
+P[1] => C.OUTPUTSELECT
+P[1] => C.DATAA
+P[2] => C.OUTPUTSELECT
+P[2] => C.OUTPUTSELECT
+C[0] << C.DB_MAX_OUTPUT_PORT_TYPE
+C[1] << C.DB_MAX_OUTPUT_PORT_TYPE
+
+
