@@ -1,0 +1,291 @@
+$comment
+	File created using the following command:
+		vcd file Mux4Por1ComSelect.msim.vcd -direction
+$end
+$date
+	Wed Sep 14 10:23:52 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux4por1comselect_vhd_vec_tst $end
+$var wire 1 ! SEL [1] $end
+$var wire 1 " SEL [0] $end
+$var wire 1 # X [7] $end
+$var wire 1 $ X [6] $end
+$var wire 1 % X [5] $end
+$var wire 1 & X [4] $end
+$var wire 1 ' X [3] $end
+$var wire 1 ( X [2] $end
+$var wire 1 ) X [1] $end
+$var wire 1 * X [0] $end
+
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var wire 1 . devoe $end
+$var wire 1 / devclrn $end
+$var wire 1 0 devpor $end
+$var wire 1 1 ww_devoe $end
+$var wire 1 2 ww_devclrn $end
+$var wire 1 3 ww_devpor $end
+$var wire 1 4 ww_SEL [1] $end
+$var wire 1 5 ww_SEL [0] $end
+$var wire 1 6 ww_X [7] $end
+$var wire 1 7 ww_X [6] $end
+$var wire 1 8 ww_X [5] $end
+$var wire 1 9 ww_X [4] $end
+$var wire 1 : ww_X [3] $end
+$var wire 1 ; ww_X [2] $end
+$var wire 1 < ww_X [1] $end
+$var wire 1 = ww_X [0] $end
+$var wire 1 > \X[0]~output_o\ $end
+$var wire 1 ? \X[1]~output_o\ $end
+$var wire 1 @ \X[2]~output_o\ $end
+$var wire 1 A \X[3]~output_o\ $end
+$var wire 1 B \X[4]~output_o\ $end
+$var wire 1 C \X[5]~output_o\ $end
+$var wire 1 D \X[6]~output_o\ $end
+$var wire 1 E \X[7]~output_o\ $end
+$var wire 1 F \SEL[0]~input_o\ $end
+$var wire 1 G \SEL[1]~input_o\ $end
+$var wire 1 H \Mux4~0_combout\ $end
+$var wire 1 I \Mux4~1_combout\ $end
+$var wire 1 J \Mux4~2_combout\ $end
+$var wire 1 K \Mux0~0_combout\ $end
+$var wire 1 L \ALT_INV_Mux0~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+1,
+x-
+1.
+1/
+10
+11
+12
+13
+0>
+0?
+0@
+0A
+0B
+0C
+1D
+1E
+0F
+0G
+0H
+0I
+0J
+0K
+1L
+0!
+0"
+04
+05
+16
+17
+08
+09
+0:
+0;
+0<
+0=
+1#
+1$
+0%
+0&
+0'
+0(
+0)
+0*
+$end
+#100000
+1"
+15
+1F
+1J
+1K
+0L
+1B
+1C
+0D
+0E
+19
+18
+07
+06
+1&
+1%
+0$
+0#
+#200000
+0"
+1!
+05
+14
+1G
+0F
+1I
+0J
+0B
+0C
+1@
+1A
+09
+08
+1;
+1:
+1(
+1'
+0&
+0%
+#300000
+1"
+15
+1F
+1H
+0I
+0@
+0A
+1>
+1?
+0;
+0:
+1=
+1<
+1*
+1)
+0(
+0'
+#400000
+0"
+0!
+05
+04
+0G
+0F
+0H
+0K
+1L
+0>
+0?
+1D
+1E
+0=
+0<
+17
+16
+0*
+0)
+1$
+1#
+#500000
+1"
+15
+1F
+1J
+1K
+0L
+1B
+1C
+0D
+0E
+19
+18
+07
+06
+1&
+1%
+0$
+0#
+#600000
+0"
+1!
+05
+14
+1G
+0F
+1I
+0J
+0B
+0C
+1@
+1A
+09
+08
+1;
+1:
+1(
+1'
+0&
+0%
+#700000
+1"
+15
+1F
+1H
+0I
+0@
+0A
+1>
+1?
+0;
+0:
+1=
+1<
+1*
+1)
+0(
+0'
+#800000
+0"
+0!
+05
+04
+0G
+0F
+0H
+0K
+1L
+0>
+0?
+1D
+1E
+0=
+0<
+17
+16
+0*
+0)
+1$
+1#
+#900000
+1"
+15
+1F
+1J
+1K
+0L
+1B
+1C
+0D
+0E
+19
+18
+07
+06
+1&
+1%
+0$
+0#
+#1000000

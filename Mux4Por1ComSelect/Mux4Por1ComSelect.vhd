@@ -1,0 +1,19 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY Mux4Por1ComSelect IS
+    PORT (
+        SEL : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+        X : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+    );
+
+END Mux4Por1ComSelect;
+
+ARCHITECTURE logica OF Mux4Por1ComSelect IS
+BEGIN
+    WITH SEL SELECT
+        X <= "11000000" WHEN "00",
+        "00110000" WHEN "01",
+        "00001100" WHEN "10",
+        "00000011" WHEN OTHERS;
+END logica;
