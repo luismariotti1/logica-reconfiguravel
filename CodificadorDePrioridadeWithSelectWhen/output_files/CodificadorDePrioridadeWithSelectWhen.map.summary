@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 14 11:56:06 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : CodificadorDePrioridadeWithSelectWhen
+Top-level Entity Name : CodificadorDePrioridadeWithSelectWhen
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 2
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

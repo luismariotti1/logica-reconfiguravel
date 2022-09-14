@@ -1,0 +1,10 @@
+|CodificadorDePrioridadeWithSelectWhen
+P[0] => Mux1.IN10
+P[1] => Mux0.IN5
+P[1] => Mux1.IN9
+P[2] => Mux0.IN4
+P[2] => Mux1.IN8
+C[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+C[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
