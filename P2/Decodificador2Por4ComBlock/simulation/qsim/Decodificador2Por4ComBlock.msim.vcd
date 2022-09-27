@@ -1,0 +1,437 @@
+$comment
+	File created using the following command:
+		vcd file Decodificador2Por4ComBlock.msim.vcd -direction
+$end
+$date
+	Tue Sep 27 20:38:43 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decodificador2por4comblock_vhd_vec_tst $end
+$var wire 1 ! A [1] $end
+$var wire 1 " A [0] $end
+$var wire 1 # ENABLE $end
+$var wire 1 $ Y [3] $end
+$var wire 1 % Y [2] $end
+$var wire 1 & Y [1] $end
+$var wire 1 ' Y [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_A [1] $end
+$var wire 1 2 ww_A [0] $end
+$var wire 1 3 ww_ENABLE $end
+$var wire 1 4 ww_Y [3] $end
+$var wire 1 5 ww_Y [2] $end
+$var wire 1 6 ww_Y [1] $end
+$var wire 1 7 ww_Y [0] $end
+$var wire 1 8 \Y[0]~output_o\ $end
+$var wire 1 9 \Y[1]~output_o\ $end
+$var wire 1 : \Y[2]~output_o\ $end
+$var wire 1 ; \Y[3]~output_o\ $end
+$var wire 1 < \A[0]~input_o\ $end
+$var wire 1 = \A[1]~input_o\ $end
+$var wire 1 > \Mux3~0_combout\ $end
+$var wire 1 ? \ENABLE~input_o\ $end
+$var wire 1 @ \Y[0]$latch~combout\ $end
+$var wire 1 A \Mux1~0_combout\ $end
+$var wire 1 B \Y[1]$latch~combout\ $end
+$var wire 1 C \Mux1~1_combout\ $end
+$var wire 1 D \Y[2]$latch~combout\ $end
+$var wire 1 E \Mux1~2_combout\ $end
+$var wire 1 F \Y[3]$latch~combout\ $end
+$var wire 1 G \ALT_INV_ENABLE~input_o\ $end
+$var wire 1 H \ALT_INV_A[1]~input_o\ $end
+$var wire 1 I \ALT_INV_A[0]~input_o\ $end
+$var wire 1 J \ALT_INV_Y[3]$latch~combout\ $end
+$var wire 1 K \ALT_INV_Y[2]$latch~combout\ $end
+$var wire 1 L \ALT_INV_Y[1]$latch~combout\ $end
+$var wire 1 M \ALT_INV_Y[0]$latch~combout\ $end
+$var wire 1 N \ALT_INV_Mux1~2_combout\ $end
+$var wire 1 O \ALT_INV_Mux1~1_combout\ $end
+$var wire 1 P \ALT_INV_Mux1~0_combout\ $end
+$var wire 1 Q \ALT_INV_Mux3~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+03
+x8
+x9
+x:
+x;
+0<
+0=
+0>
+0?
+x@
+0A
+xB
+0C
+xD
+0E
+xF
+1G
+1H
+1I
+xJ
+xK
+xL
+xM
+1N
+1O
+1P
+1Q
+0!
+0"
+01
+02
+x4
+x5
+x6
+x7
+x$
+x%
+x&
+x'
+$end
+#50000
+1"
+12
+1<
+0I
+1>
+1A
+0P
+0Q
+#100000
+0"
+1!
+02
+11
+1=
+0<
+1I
+0H
+0A
+1C
+0O
+1P
+#150000
+1"
+12
+1<
+0I
+0C
+1E
+0N
+1O
+#200000
+0"
+0!
+02
+01
+0=
+0<
+1I
+1H
+0>
+0E
+1N
+1Q
+#250000
+1"
+12
+1<
+0I
+1>
+1A
+0P
+0Q
+#300000
+0"
+1!
+02
+11
+1=
+0<
+1I
+0H
+0A
+1C
+0O
+1P
+#350000
+1"
+12
+1<
+0I
+0C
+1E
+0N
+1O
+#400000
+0"
+0!
+1#
+02
+01
+13
+1?
+0=
+0<
+1I
+1H
+0G
+0@
+0B
+0D
+1F
+0>
+0E
+1N
+1Q
+0J
+1K
+1L
+1M
+1@
+0F
+1J
+0M
+1;
+0:
+09
+08
+14
+05
+06
+07
+0'
+0&
+0%
+1$
+0;
+18
+04
+17
+1'
+0$
+#450000
+1"
+12
+1<
+0I
+1>
+1A
+0P
+0Q
+0@
+1B
+0L
+1M
+19
+08
+16
+07
+0'
+1&
+#500000
+0"
+1!
+02
+11
+1=
+0<
+1I
+0H
+0A
+1C
+0O
+1P
+0B
+1D
+0K
+1L
+1:
+09
+15
+06
+0&
+1%
+#550000
+1"
+12
+1<
+0I
+0C
+1E
+0N
+1O
+0D
+1F
+0J
+1K
+1;
+0:
+14
+05
+0%
+1$
+#600000
+0"
+0!
+02
+01
+0=
+0<
+1I
+1H
+0>
+0E
+1N
+1Q
+1@
+0F
+1J
+0M
+0;
+18
+04
+17
+1'
+0$
+#650000
+1"
+12
+1<
+0I
+1>
+1A
+0P
+0Q
+0@
+1B
+0L
+1M
+19
+08
+16
+07
+0'
+1&
+#700000
+0"
+1!
+02
+11
+1=
+0<
+1I
+0H
+0A
+1C
+0O
+1P
+0B
+1D
+0K
+1L
+1:
+09
+15
+06
+0&
+1%
+#750000
+1"
+12
+1<
+0I
+0C
+1E
+0N
+1O
+0D
+1F
+0J
+1K
+1;
+0:
+14
+05
+0%
+1$
+#800000
+0"
+0!
+0#
+02
+01
+03
+0?
+0=
+0<
+1I
+1H
+1G
+0>
+0E
+1N
+1Q
+#850000
+1"
+12
+1<
+0I
+1>
+1A
+0P
+0Q
+#900000
+0"
+1!
+02
+11
+1=
+0<
+1I
+0H
+0A
+1C
+0O
+1P
+#950000
+1"
+12
+1<
+0I
+0C
+1E
+0N
+1O
+#1000000

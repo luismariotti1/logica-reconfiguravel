@@ -1,0 +1,19 @@
+|Decodificador2Por4ComBlock
+A[0] => Mux0.IN5
+A[0] => Mux1.IN5
+A[0] => Mux2.IN5
+A[0] => Mux3.IN5
+A[1] => Mux0.IN4
+A[1] => Mux1.IN4
+A[1] => Mux2.IN4
+A[1] => Mux3.IN4
+ENABLE => Y[0]$latch.LATCH_ENABLE
+ENABLE => Y[1]$latch.LATCH_ENABLE
+ENABLE => Y[2]$latch.LATCH_ENABLE
+ENABLE => Y[3]$latch.LATCH_ENABLE
+Y[0] <= Y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
