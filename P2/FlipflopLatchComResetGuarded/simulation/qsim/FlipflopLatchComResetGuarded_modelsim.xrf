@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/FlipflopLatchComResetGuarded/FlipflopLatchComResetGuarded.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/FlipflopLatchComResetGuarded/db/FlipflopLatchComResetGuarded.cbx.xml
+design_name = FlipflopLatchComResetGuarded
+instance = comp, \q_guarded~output\, q_guarded~output, FlipflopLatchComResetGuarded, 1
+instance = comp, \q~output\, q~output, FlipflopLatchComResetGuarded, 1
+instance = comp, \d~input\, d~input, FlipflopLatchComResetGuarded, 1
+instance = comp, \rst~input\, rst~input, FlipflopLatchComResetGuarded, 1
+instance = comp, \q_guarded~0\, q_guarded~0, FlipflopLatchComResetGuarded, 1
+instance = comp, \clk~input\, clk~input, FlipflopLatchComResetGuarded, 1
+instance = comp, \q_guarded$latch\, q_guarded$latch, FlipflopLatchComResetGuarded, 1

@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/FlipflopSincronoComGuarded/simulation/qsim
+Eflipflopsincronocomguarded
+Z1 w1664316348
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z11 8FlipflopSincronoComGuarded.vho
+Z12 FFlipflopSincronoComGuarded.vho
+l0
+L38
+Vhkj^]Q37nenn?VhG6RiY@3
+!s100 OJP2`8Q<C7QTM8F<H>?mW3
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1664316349
+!i10b 1
+Z15 !s108 1664316349.000000
+Z16 !s90 -work|work|FlipflopSincronoComGuarded.vho|
+Z17 !s107 FlipflopSincronoComGuarded.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 26 flipflopsincronocomguarded 0 22 hkj^]Q37nenn?VhG6RiY@3
+l73
+L48
+VSZ6eKj[nA<l9H8dnFo@RX0
+!s100 ]49`<G4JQgjFcH6KDH4`23
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Eflipflopsincronocomguarded_vhd_vec_tst
+Z20 w1664316346
+R8
+R9
+R0
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
+l0
+L31
+V@@IJ@lZhX<TS7o>LbUc[n0
+!s100 K^BRa9lQB]@z:0d^7=aSL3
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform1.vwf.vht|
+Z24 !s107 Waveform1.vwf.vht|
+!i113 1
+R18
+R19
+Aflipflopsincronocomguarded_arch
+R8
+R9
+Z25 DEx4 work 38 flipflopsincronocomguarded_vhd_vec_tst 0 22 @@IJ@lZhX<TS7o>LbUc[n0
+l50
+L33
+VLQTdaMok34U[S[^kL8b3[3
+!s100 z@9BV?mFSfzmoF6CUE^`R3
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19

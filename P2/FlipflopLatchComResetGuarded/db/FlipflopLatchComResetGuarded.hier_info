@@ -1,0 +1,9 @@
+|FlipflopLatchComResetGuarded
+clk => q_guarded$latch.LATCH_ENABLE
+d => q_guarded.DATAA
+d => q.DATAIN
+rst => q_guarded.OUTPUTSELECT
+q_guarded <= q_guarded$latch.DB_MAX_OUTPUT_PORT_TYPE
+q <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+

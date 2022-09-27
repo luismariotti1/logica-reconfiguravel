@@ -1,0 +1,9 @@
+|FlipflopSincronoComGuarded
+clk => q_guarded_sinc~reg0.CLK
+d => q_guarded_sinc.DATAA
+d => q_assinc.DATAIN
+rst => q_guarded_sinc.OUTPUTSELECT
+q_guarded_sinc <= q_guarded_sinc~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_assinc <= d.DB_MAX_OUTPUT_PORT_TYPE
+
+

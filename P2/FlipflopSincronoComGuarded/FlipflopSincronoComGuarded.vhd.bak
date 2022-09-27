@@ -1,0 +1,20 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY FlipflopSincronoComGuarded IS
+    PORT (
+        clk, d, rst : IN STD_LOGIC;
+        q : OUT STD_LOGIC;
+    );
+END FlipflopSincronoComGuarded;
+
+ARCHITECTURE logic OF FlipflopSincronoComGuarded IS
+BEGIN
+    bloco : BLOCK (clk = '1')
+        SIGNAL x : STD_LOGIC
+    BEGIN
+        x <= d;
+        WITH rst SELECT
+            q <= x WHEN '0' OTHERS '0';
+    END BLOCK bloco;
+END logic;
