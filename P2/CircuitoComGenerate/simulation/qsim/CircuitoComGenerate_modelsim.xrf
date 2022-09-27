@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/CircuitoComGenerate/circuitocomgenerate.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = CircuitoComGenerate
+instance = comp, \saida~output , saida~output, CircuitoComGenerate, 1
+instance = comp, \entradas[2]~input , entradas[2]~input, CircuitoComGenerate, 1
+instance = comp, \entradas[3]~input , entradas[3]~input, CircuitoComGenerate, 1
+instance = comp, \entradas[0]~input , entradas[0]~input, CircuitoComGenerate, 1
+instance = comp, \entradas[1]~input , entradas[1]~input, CircuitoComGenerate, 1
+instance = comp, \aux~0 , aux~0, CircuitoComGenerate, 1
+instance = comp, \entradas[4]~input , entradas[4]~input, CircuitoComGenerate, 1
+instance = comp, \entradas[5]~input , entradas[5]~input, CircuitoComGenerate, 1

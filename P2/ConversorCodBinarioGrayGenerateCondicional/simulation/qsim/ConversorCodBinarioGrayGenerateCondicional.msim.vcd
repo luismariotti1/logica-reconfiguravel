@@ -1,0 +1,309 @@
+$comment
+	File created using the following command:
+		vcd file ConversorCodBinarioGrayGenerateCondicional.msim.vcd -direction
+$end
+$date
+	Tue Sep 27 17:22:30 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module conversorcodbinariograygeneratecondicional_vhd_vec_tst $end
+$var wire 1 ! entradas [3] $end
+$var wire 1 " entradas [2] $end
+$var wire 1 # entradas [1] $end
+$var wire 1 $ entradas [0] $end
+$var wire 1 % saidas [3] $end
+$var wire 1 & saidas [2] $end
+$var wire 1 ' saidas [1] $end
+$var wire 1 ( saidas [0] $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var wire 1 , devoe $end
+$var wire 1 - devclrn $end
+$var wire 1 . devpor $end
+$var wire 1 / ww_devoe $end
+$var wire 1 0 ww_devclrn $end
+$var wire 1 1 ww_devpor $end
+$var wire 1 2 ww_entradas [3] $end
+$var wire 1 3 ww_entradas [2] $end
+$var wire 1 4 ww_entradas [1] $end
+$var wire 1 5 ww_entradas [0] $end
+$var wire 1 6 ww_saidas [3] $end
+$var wire 1 7 ww_saidas [2] $end
+$var wire 1 8 ww_saidas [1] $end
+$var wire 1 9 ww_saidas [0] $end
+$var wire 1 : \saidas[0]~output_o\ $end
+$var wire 1 ; \saidas[1]~output_o\ $end
+$var wire 1 < \saidas[2]~output_o\ $end
+$var wire 1 = \saidas[3]~output_o\ $end
+$var wire 1 > \entradas[0]~input_o\ $end
+$var wire 1 ? \entradas[1]~input_o\ $end
+$var wire 1 @ \saidas~0_combout\ $end
+$var wire 1 A \entradas[2]~input_o\ $end
+$var wire 1 B \saidas~1_combout\ $end
+$var wire 1 C \entradas[3]~input_o\ $end
+$var wire 1 D \saidas~2_combout\ $end
+$var wire 1 E \ALT_INV_entradas[0]~input_o\ $end
+$var wire 1 F \ALT_INV_entradas[2]~input_o\ $end
+$var wire 1 G \ALT_INV_entradas[1]~input_o\ $end
+$var wire 1 H \ALT_INV_entradas[3]~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+1*
+x+
+1,
+1-
+1.
+1/
+10
+11
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+1E
+1F
+1G
+1H
+0!
+0"
+0#
+0$
+02
+03
+04
+05
+06
+07
+08
+09
+0%
+0&
+0'
+0(
+$end
+#50000
+1$
+15
+1>
+0E
+1@
+1:
+19
+1(
+#100000
+1#
+14
+1?
+0G
+0@
+1B
+1;
+0:
+18
+09
+0(
+1'
+#150000
+0$
+05
+0>
+1E
+1@
+1:
+19
+1(
+#200000
+1"
+13
+1A
+0F
+0B
+1D
+1<
+0;
+17
+08
+0'
+1&
+#250000
+1$
+15
+1>
+0E
+0@
+0:
+09
+0(
+#300000
+0#
+04
+0?
+1G
+1@
+1B
+1;
+1:
+18
+19
+1(
+1'
+#350000
+0$
+05
+0>
+1E
+0@
+0:
+09
+0(
+#400000
+1!
+12
+1C
+0H
+0D
+1=
+16
+1%
+0<
+07
+0&
+#450000
+1$
+15
+1>
+0E
+1@
+1:
+19
+1(
+#500000
+1#
+14
+1?
+0G
+0@
+0B
+0;
+0:
+08
+09
+0(
+0'
+#550000
+0$
+05
+0>
+1E
+1@
+1:
+19
+1(
+#600000
+0"
+03
+0A
+1F
+1B
+1D
+1<
+1;
+17
+18
+1'
+1&
+#650000
+1$
+15
+1>
+0E
+0@
+0:
+09
+0(
+#700000
+0#
+04
+0?
+1G
+1@
+0B
+0;
+1:
+08
+19
+1(
+0'
+#750000
+0$
+05
+0>
+1E
+0@
+0:
+09
+0(
+#800000
+0!
+02
+0C
+1H
+0D
+0=
+06
+0%
+0<
+07
+0&
+#850000
+1$
+15
+1>
+0E
+1@
+1:
+19
+1(
+#900000
+1#
+14
+1?
+0G
+0@
+1B
+1;
+0:
+18
+09
+0(
+1'
+#950000
+0$
+05
+0>
+1E
+1@
+1:
+19
+1(
+#1000000

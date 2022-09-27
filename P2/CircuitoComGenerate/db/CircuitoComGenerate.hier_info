@@ -1,0 +1,11 @@
+|CircuitoComGenerate
+entradas[0] => x.IN0
+entradas[1] => x.IN1
+entradas[1] => x.IN0
+entradas[2] => x.IN1
+entradas[3] => aux[0].IN1
+entradas[4] => aux[1].IN1
+entradas[5] => aux.IN1
+saida <= aux.DB_MAX_OUTPUT_PORT_TYPE
+
+

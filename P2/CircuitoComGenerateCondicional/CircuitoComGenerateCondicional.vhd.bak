@@ -1,0 +1,18 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY CircuitoComGenerateCondicional IS
+    PORT (
+        entrada : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+        saida : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+    );
+END CircuitoComGenerateCondicional;
+
+ARCHITECTURE logic OF CircuitoComGenerateCondicional IS
+BEGIN
+    GEN : FOR i IN 0 TO 15 GENERATE
+        entrada := entrada + "0001";
+        saida <= entrada;
+    END GENERATE GEN;
+
+END logic;

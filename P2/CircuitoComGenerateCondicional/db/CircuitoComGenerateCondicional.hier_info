@@ -1,0 +1,11 @@
+|CircuitoComGenerateCondicional
+entrada[0] => saida[0].DATAIN
+entrada[1] => saida[1].DATAIN
+entrada[2] => saida[2].DATAIN
+entrada[3] => ~NO_FANOUT~
+saida[0] <= entrada[0].DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= entrada[1].DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= entrada[2].DB_MAX_OUTPUT_PORT_TYPE
+saida[3] <= <GND>
+
+

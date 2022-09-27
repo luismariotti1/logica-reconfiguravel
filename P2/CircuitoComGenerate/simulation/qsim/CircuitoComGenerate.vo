@@ -1,0 +1,158 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "09/27/2022 16:19:40"
+
+// 
+// Device: Altera 5CSEMA5F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module CircuitoComGenerate (
+	entradas,
+	saida);
+input 	[5:0] entradas;
+output 	saida;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \entradas[4]~input_o ;
+wire \entradas[5]~input_o ;
+wire \saida~output_o ;
+wire \entradas[2]~input_o ;
+wire \entradas[3]~input_o ;
+wire \entradas[0]~input_o ;
+wire \entradas[1]~input_o ;
+wire \aux~0_combout ;
+
+
+cyclonev_io_obuf \saida~output (
+	.i(\aux~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\saida~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \saida~output .bus_hold = "false";
+defparam \saida~output .open_drain_output = "false";
+defparam \saida~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[2]~input (
+	.i(entradas[2]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[2]~input_o ));
+// synopsys translate_off
+defparam \entradas[2]~input .bus_hold = "false";
+defparam \entradas[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[3]~input (
+	.i(entradas[3]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[3]~input_o ));
+// synopsys translate_off
+defparam \entradas[3]~input .bus_hold = "false";
+defparam \entradas[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[0]~input (
+	.i(entradas[0]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[0]~input_o ));
+// synopsys translate_off
+defparam \entradas[0]~input .bus_hold = "false";
+defparam \entradas[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[1]~input (
+	.i(entradas[1]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[1]~input_o ));
+// synopsys translate_off
+defparam \entradas[1]~input .bus_hold = "false";
+defparam \entradas[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \aux~0 (
+// Equation(s):
+// \aux~0_combout  = (((\entradas[0]~input_o  & \entradas[1]~input_o )) # (\entradas[3]~input_o )) # (\entradas[2]~input_o )
+
+	.dataa(!\entradas[2]~input_o ),
+	.datab(!\entradas[3]~input_o ),
+	.datac(!\entradas[0]~input_o ),
+	.datad(!\entradas[1]~input_o ),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\aux~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \aux~0 .extended_lut = "off";
+defparam \aux~0 .lut_mask = 64'h777F777F777F777F;
+defparam \aux~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[4]~input (
+	.i(entradas[4]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[4]~input_o ));
+// synopsys translate_off
+defparam \entradas[4]~input .bus_hold = "false";
+defparam \entradas[4]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \entradas[5]~input (
+	.i(entradas[5]),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\entradas[5]~input_o ));
+// synopsys translate_off
+defparam \entradas[5]~input .bus_hold = "false";
+defparam \entradas[5]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign saida = \saida~output_o ;
+
+endmodule

@@ -1,0 +1,14 @@
+|ConversorCodBinarioGrayGenerateCondicional
+entradas[0] => saidas.IN0
+entradas[1] => saidas.IN0
+entradas[1] => saidas.IN1
+entradas[2] => saidas.IN0
+entradas[2] => saidas.IN1
+entradas[3] => saidas.IN1
+entradas[3] => saidas[3].DATAIN
+saidas[0] <= saidas.DB_MAX_OUTPUT_PORT_TYPE
+saidas[1] <= saidas.DB_MAX_OUTPUT_PORT_TYPE
+saidas[2] <= saidas.DB_MAX_OUTPUT_PORT_TYPE
+saidas[3] <= entradas[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
