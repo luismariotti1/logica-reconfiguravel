@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "09/27/2022 22:12:30"
+-- DATE "09/28/2022 08:51:05"
 
 -- 
 -- Device: Altera 5CSEMA4U23C6 Package UFBGA672
@@ -30,21 +30,18 @@ LIBRARY ALTERA;
 LIBRARY ALTERA_LNSIM;
 LIBRARY CYCLONEV;
 LIBRARY IEEE;
-LIBRARY STD;
 USE ALTERA.ALTERA_PRIMITIVES_COMPONENTS.ALL;
 USE ALTERA_LNSIM.ALTERA_LNSIM_COMPONENTS.ALL;
 USE CYCLONEV.CYCLONEV_COMPONENTS.ALL;
 USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.STD_LOGIC_ARITH.ALL;
-USE STD.STANDARD.ALL;
 
 ENTITY 	SomadorComparadorIfThenElse IS
     PORT (
-	a : IN STD.STANDARD.integer range 0 TO 7;
-	b : IN STD.STANDARD.integer range 0 TO 7;
+	a : IN std_logic_vector(2 DOWNTO 0);
+	b : IN std_logic_vector(2 DOWNTO 0);
 	clk : IN std_logic;
-	reg_comp : OUT std_logic;
-	reg_sum : OUT STD.STANDARD.integer range 0 TO 15
+	reg_comp : BUFFER std_logic;
+	reg_sum : BUFFER std_logic_vector(3 DOWNTO 0)
 	);
 END SomadorComparadorIfThenElse;
 
@@ -85,28 +82,28 @@ SIGNAL \Add0~2_combout\ : std_logic;
 SIGNAL \reg_sum[2]~reg0_q\ : std_logic;
 SIGNAL \Add0~3_combout\ : std_logic;
 SIGNAL \reg_sum[3]~reg0_q\ : std_logic;
-SIGNAL \ALT_INV_a[1]~input_o\ : std_logic;
-SIGNAL \ALT_INV_b[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_a[2]~input_o\ : std_logic;
 SIGNAL \ALT_INV_b[2]~input_o\ : std_logic;
+SIGNAL \ALT_INV_a[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_a[0]~input_o\ : std_logic;
+SIGNAL \ALT_INV_b[1]~input_o\ : std_logic;
 SIGNAL \ALT_INV_b[0]~input_o\ : std_logic;
 
 BEGIN
 
-ww_a <= IEEE.STD_LOGIC_ARITH.CONV_STD_LOGIC_VECTOR(a, 3);
-ww_b <= IEEE.STD_LOGIC_ARITH.CONV_STD_LOGIC_VECTOR(b, 3);
+ww_a <= a;
+ww_b <= b;
 ww_clk <= clk;
 reg_comp <= ww_reg_comp;
-reg_sum <= IEEE.STD_LOGIC_ARITH.CONV_INTEGER(UNSIGNED(ww_reg_sum));
+reg_sum <= ww_reg_sum;
 ww_devoe <= devoe;
 ww_devclrn <= devclrn;
 ww_devpor <= devpor;
-\ALT_INV_a[1]~input_o\ <= NOT \a[1]~input_o\;
-\ALT_INV_b[1]~input_o\ <= NOT \b[1]~input_o\;
 \ALT_INV_a[2]~input_o\ <= NOT \a[2]~input_o\;
 \ALT_INV_b[2]~input_o\ <= NOT \b[2]~input_o\;
+\ALT_INV_a[1]~input_o\ <= NOT \a[1]~input_o\;
 \ALT_INV_a[0]~input_o\ <= NOT \a[0]~input_o\;
+\ALT_INV_b[1]~input_o\ <= NOT \b[1]~input_o\;
 \ALT_INV_b[0]~input_o\ <= NOT \b[0]~input_o\;
 
 \reg_comp~output\ : cyclonev_io_obuf

@@ -18,7 +18,7 @@
 -- the top level entity of the current Quartus project .The user can use this   
 -- testbench to simulate his design using a third-party simulation tool .       
 -- *****************************************************************************
--- Generated on "09/27/2022 22:12:27"
+-- Generated on "09/28/2022 08:51:02"
                                                              
 -- Vhdl Test Bench(with test vectors) for design  :          SomadorComparadorIfThenElse
 -- 
@@ -43,8 +43,8 @@ COMPONENT SomadorComparadorIfThenElse
 	a : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
 	b : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
 	clk : IN STD_LOGIC;
-	reg_comp : OUT STD_LOGIC;
-	reg_sum : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+	reg_comp : BUFFER STD_LOGIC;
+	reg_sum : BUFFER STD_LOGIC_VECTOR(3 DOWNTO 0)
 	);
 END COMPONENT;
 BEGIN
@@ -60,69 +60,53 @@ BEGIN
 -- a[2]
 t_prcs_a_2: PROCESS
 BEGIN
-	FOR i IN 1 TO 2
-	LOOP
-		a(2) <= '0';
-		WAIT FOR 200000 ps;
-		a(2) <= '1';
-		WAIT FOR 200000 ps;
-	END LOOP;
-	a(2) <= '0';
+	a(2) <= '1';
 WAIT;
 END PROCESS t_prcs_a_2;
 -- a[1]
 t_prcs_a_1: PROCESS
 BEGIN
-LOOP
 	a(1) <= '0';
-	WAIT FOR 100000 ps;
-	a(1) <= '1';
-	WAIT FOR 100000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_a_1;
 -- a[0]
 t_prcs_a_0: PROCESS
 BEGIN
-LOOP
-	a(0) <= '0';
-	WAIT FOR 50000 ps;
 	a(0) <= '1';
-	WAIT FOR 50000 ps;
-	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
-END LOOP;
+WAIT;
 END PROCESS t_prcs_a_0;
 -- b[2]
 t_prcs_b_2: PROCESS
 BEGIN
-	b(2) <= '0';
-	WAIT FOR 400000 ps;
-	b(2) <= '1';
-	WAIT FOR 400000 ps;
+	FOR i IN 1 TO 2
+	LOOP
+		b(2) <= '0';
+		WAIT FOR 200000 ps;
+		b(2) <= '1';
+		WAIT FOR 200000 ps;
+	END LOOP;
 	b(2) <= '0';
 WAIT;
 END PROCESS t_prcs_b_2;
 -- b[1]
 t_prcs_b_1: PROCESS
 BEGIN
-	FOR i IN 1 TO 2
-	LOOP
-		b(1) <= '0';
-		WAIT FOR 200000 ps;
-		b(1) <= '1';
-		WAIT FOR 200000 ps;
-	END LOOP;
+LOOP
 	b(1) <= '0';
-WAIT;
+	WAIT FOR 100000 ps;
+	b(1) <= '1';
+	WAIT FOR 100000 ps;
+	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
+END LOOP;
 END PROCESS t_prcs_b_1;
 -- b[0]
 t_prcs_b_0: PROCESS
 BEGIN
 LOOP
 	b(0) <= '0';
-	WAIT FOR 100000 ps;
+	WAIT FOR 50000 ps;
 	b(0) <= '1';
-	WAIT FOR 100000 ps;
+	WAIT FOR 50000 ps;
 	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
 END LOOP;
 END PROCESS t_prcs_b_0;
@@ -130,16 +114,12 @@ END PROCESS t_prcs_b_0;
 -- clk
 t_prcs_clk: PROCESS
 BEGIN
-	FOR i IN 1 TO 16
-	LOOP
-		clk <= '0';
-		WAIT FOR 30000 ps;
-		clk <= '1';
-		WAIT FOR 30000 ps;
-	END LOOP;
+LOOP
 	clk <= '0';
-	WAIT FOR 30000 ps;
+	WAIT FOR 25000 ps;
 	clk <= '1';
-WAIT;
+	WAIT FOR 25000 ps;
+	IF (NOW >= 1000000 ps) THEN WAIT; END IF;
+END LOOP;
 END PROCESS t_prcs_clk;
 END SomadorComparadorIfThenElse_arch;

@@ -1,5 +1,5 @@
 Flow report for SomadorComparadorIfThenElse
-Tue Sep 27 22:12:30 2022
+Wed Sep 28 08:51:05 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Tue Sep 27 22:12:30 2022       ;
+; Flow Status                     ; Successful - Wed Sep 28 08:51:05 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; SomadorComparadorIfThenElse                 ;
 ; Top-level Entity Name           ; SomadorComparadorIfThenElse                 ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+-----------------------------+
 ; Option            ; Setting                     ;
 +-------------------+-----------------------------+
-; Start date & time ; 09/27/2022 22:08:48         ;
+; Start date & time ; 09/28/2022 08:49:38         ;
 ; Main task         ; Compilation                 ;
 ; Revision Name     ; SomadorComparadorIfThenElse ;
 +-------------------+-----------------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 273406400789123.166432732704948        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 273406400789123.166436577708120        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim (VHDL)                        ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -96,14 +96,10 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:27     ; 1.0                     ; 4855 MB             ; 00:00:52                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4704 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4709 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4705 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4709 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4705 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4709 MB             ; 00:00:02                           ;
-; Total                ; 00:00:38     ; --                      ; --                  ; 00:01:04                           ;
+; Analysis & Synthesis ; 00:00:27     ; 1.0                     ; 4839 MB             ; 00:00:50                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4704 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4709 MB             ; 00:00:01                           ;
+; Total                ; 00:00:30     ; --                      ; --                  ; 00:00:52                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,10 +111,6 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-HTA22SB  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -126,10 +118,6 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse --vector_source=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/Waveform.vwf --testbench_file=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/ SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse --vector_source=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/Waveform.vwf --testbench_file=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/ SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse
 quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse --vector_source=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/Waveform.vwf --testbench_file=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/Waveform.vwf.vht
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim/ SomadorComparadorIfThenElse -c SomadorComparadorIfThenElse
 

@@ -16,10 +16,10 @@ clk => reg_sum[1]~reg0.CLK
 clk => reg_sum[2]~reg0.CLK
 clk => reg_sum[3]~reg0.CLK
 clk => reg_comp~reg0.CLK
-reg_comp <= reg_comp~reg0.DB_MAX_OUTPUT_PORT_TYPE
-reg_sum[0] <= reg_sum[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-reg_sum[1] <= reg_sum[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-reg_sum[2] <= reg_sum[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-reg_sum[3] <= reg_sum[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_comp << reg_comp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[0] << reg_sum[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[1] << reg_sum[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[2] << reg_sum[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[3] << reg_sum[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
