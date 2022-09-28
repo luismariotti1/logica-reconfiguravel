@@ -1,0 +1,472 @@
+$comment
+	File created using the following command:
+		vcd file DecodificadorBCD7SegComCaseWhen.msim.vcd -direction
+$end
+$date
+	Wed Sep 28 09:47:38 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decodificadorbcd7segcomcasewhen_vhd_vec_tst $end
+$var wire 1 ! entradas [3] $end
+$var wire 1 " entradas [2] $end
+$var wire 1 # entradas [1] $end
+$var wire 1 $ entradas [0] $end
+$var wire 1 % saida [6] $end
+$var wire 1 & saida [5] $end
+$var wire 1 ' saida [4] $end
+$var wire 1 ( saida [3] $end
+$var wire 1 ) saida [2] $end
+$var wire 1 * saida [1] $end
+$var wire 1 + saida [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var wire 1 / devoe $end
+$var wire 1 0 devclrn $end
+$var wire 1 1 devpor $end
+$var wire 1 2 ww_devoe $end
+$var wire 1 3 ww_devclrn $end
+$var wire 1 4 ww_devpor $end
+$var wire 1 5 ww_entradas [3] $end
+$var wire 1 6 ww_entradas [2] $end
+$var wire 1 7 ww_entradas [1] $end
+$var wire 1 8 ww_entradas [0] $end
+$var wire 1 9 ww_saida [6] $end
+$var wire 1 : ww_saida [5] $end
+$var wire 1 ; ww_saida [4] $end
+$var wire 1 < ww_saida [3] $end
+$var wire 1 = ww_saida [2] $end
+$var wire 1 > ww_saida [1] $end
+$var wire 1 ? ww_saida [0] $end
+$var wire 1 @ \saida[0]~output_o\ $end
+$var wire 1 A \saida[1]~output_o\ $end
+$var wire 1 B \saida[2]~output_o\ $end
+$var wire 1 C \saida[3]~output_o\ $end
+$var wire 1 D \saida[4]~output_o\ $end
+$var wire 1 E \saida[5]~output_o\ $end
+$var wire 1 F \saida[6]~output_o\ $end
+$var wire 1 G \entradas[0]~input_o\ $end
+$var wire 1 H \entradas[1]~input_o\ $end
+$var wire 1 I \entradas[2]~input_o\ $end
+$var wire 1 J \entradas[3]~input_o\ $end
+$var wire 1 K \Mux6~0_combout\ $end
+$var wire 1 L \Mux5~0_combout\ $end
+$var wire 1 M \Mux4~0_combout\ $end
+$var wire 1 N \Mux3~0_combout\ $end
+$var wire 1 O \Mux2~0_combout\ $end
+$var wire 1 P \Mux1~0_combout\ $end
+$var wire 1 Q \Mux0~0_combout\ $end
+$var wire 1 R \ALT_INV_entradas[3]~input_o\ $end
+$var wire 1 S \ALT_INV_entradas[2]~input_o\ $end
+$var wire 1 T \ALT_INV_entradas[1]~input_o\ $end
+$var wire 1 U \ALT_INV_entradas[0]~input_o\ $end
+$var wire 1 V \ALT_INV_Mux6~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0,
+1-
+x.
+1/
+10
+11
+12
+13
+14
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+1R
+1S
+1T
+1U
+1V
+0!
+0"
+0#
+0$
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+1?
+0%
+0&
+0'
+0(
+0)
+0*
+1+
+$end
+#50000
+1$
+18
+1G
+0U
+1L
+1M
+1N
+1Q
+1F
+1C
+1B
+1A
+19
+1<
+1=
+1>
+1*
+1)
+1(
+1%
+#100000
+0$
+1#
+08
+17
+1H
+0G
+1U
+0T
+1K
+0M
+0N
+1O
+0Q
+0V
+0F
+1D
+0C
+0B
+0@
+09
+1;
+0<
+0=
+0?
+0)
+0(
+1'
+0%
+0+
+#150000
+1$
+18
+1G
+0U
+1M
+0O
+0D
+1B
+0;
+1=
+1)
+0'
+#200000
+0$
+0#
+1"
+08
+07
+16
+1I
+0H
+0G
+1U
+1T
+0S
+0L
+1N
+1Q
+1F
+1C
+0A
+19
+1<
+0>
+0*
+1(
+1%
+#250000
+1$
+18
+1G
+0U
+0N
+1P
+0Q
+0F
+1E
+0C
+09
+1:
+0<
+0(
+1&
+0%
+#300000
+0$
+1#
+08
+17
+1H
+0G
+1U
+0T
+0M
+0B
+0=
+0)
+#350000
+1$
+18
+1G
+0U
+0K
+1L
+1M
+1N
+0P
+1V
+0E
+1C
+1B
+1A
+1@
+0:
+1<
+1=
+1>
+1?
+1*
+1)
+1(
+0&
+1+
+#400000
+0$
+0#
+0"
+1!
+08
+07
+06
+15
+1J
+0I
+0H
+0G
+1U
+1T
+1S
+0R
+1K
+0L
+0M
+0N
+0V
+0C
+0B
+0A
+0@
+0<
+0=
+0>
+0?
+0*
+0)
+0(
+0+
+#450000
+1$
+18
+1G
+0U
+1M
+1B
+1=
+1)
+#500000
+0$
+1#
+08
+17
+1H
+0G
+1U
+0T
+0M
+1O
+1P
+1E
+1D
+0B
+1:
+1;
+0=
+0)
+1'
+1&
+#550000
+1$
+18
+1G
+0U
+#600000
+0$
+0#
+1"
+08
+07
+16
+1I
+0H
+0G
+1U
+1T
+0S
+#650000
+1$
+18
+1G
+0U
+#700000
+0$
+1#
+08
+17
+1H
+0G
+1U
+0T
+#750000
+1$
+18
+1G
+0U
+#800000
+0$
+0#
+0"
+0!
+08
+07
+06
+05
+0J
+0I
+0H
+0G
+1U
+1T
+1S
+1R
+0K
+0O
+0P
+1V
+0E
+0D
+1@
+0:
+0;
+1?
+0'
+0&
+1+
+#850000
+1$
+18
+1G
+0U
+1L
+1M
+1N
+1Q
+1F
+1C
+1B
+1A
+19
+1<
+1=
+1>
+1*
+1)
+1(
+1%
+#900000
+0$
+1#
+08
+17
+1H
+0G
+1U
+0T
+1K
+0M
+0N
+1O
+0Q
+0V
+0F
+1D
+0C
+0B
+0@
+09
+1;
+0<
+0=
+0?
+0)
+0(
+1'
+0%
+0+
+#950000
+1$
+18
+1G
+0U
+1M
+0O
+0D
+1B
+0;
+1=
+1)
+0'
+#1000000
