@@ -1,0 +1,39 @@
+|ULAComCaseWhen
+op[0] => Mux0.IN5
+op[0] => Mux1.IN5
+op[0] => Mux2.IN5
+op[0] => Mux3.IN5
+op[1] => Mux0.IN4
+op[1] => Mux1.IN4
+op[1] => Mux2.IN4
+op[1] => Mux3.IN4
+num1[0] => Add0.IN3
+num1[0] => Add1.IN6
+num1[0] => Mult0.IN2
+num1[0] => Div0.IN2
+num1[1] => Add0.IN2
+num1[1] => Add1.IN5
+num1[1] => Mult0.IN1
+num1[1] => Div0.IN1
+num1[2] => Add0.IN1
+num1[2] => Add1.IN4
+num1[2] => Mult0.IN0
+num1[2] => Div0.IN0
+num2[0] => Add0.IN6
+num2[0] => Mult0.IN5
+num2[0] => Div0.IN5
+num2[0] => Add1.IN3
+num2[1] => Add0.IN5
+num2[1] => Mult0.IN4
+num2[1] => Div0.IN4
+num2[1] => Add1.IN2
+num2[2] => Add0.IN4
+num2[2] => Mult0.IN3
+num2[2] => Div0.IN3
+num2[2] => Add1.IN1
+result[0] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+result[1] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+result[2] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
