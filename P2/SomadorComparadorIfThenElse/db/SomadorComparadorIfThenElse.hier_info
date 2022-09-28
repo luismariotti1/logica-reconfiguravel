@@ -1,0 +1,25 @@
+|SomadorComparadorIfThenElse
+a[0] => LessThan0.IN3
+a[0] => Add0.IN3
+a[1] => LessThan0.IN2
+a[1] => Add0.IN2
+a[2] => LessThan0.IN1
+a[2] => Add0.IN1
+b[0] => LessThan0.IN6
+b[0] => Add0.IN6
+b[1] => LessThan0.IN5
+b[1] => Add0.IN5
+b[2] => LessThan0.IN4
+b[2] => Add0.IN4
+clk => reg_sum[0]~reg0.CLK
+clk => reg_sum[1]~reg0.CLK
+clk => reg_sum[2]~reg0.CLK
+clk => reg_sum[3]~reg0.CLK
+clk => reg_comp~reg0.CLK
+reg_comp <= reg_comp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[0] <= reg_sum[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[1] <= reg_sum[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[2] <= reg_sum[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_sum[3] <= reg_sum[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

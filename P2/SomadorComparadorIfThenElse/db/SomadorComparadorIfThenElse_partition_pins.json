@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "reg_comp",
+					"strict" : false
+				},
+				{
+					"name" : "reg_sum[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_sum[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_sum[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_sum[3]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

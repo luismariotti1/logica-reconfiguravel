@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Ruimdows/Desktop/logica-reconfiguravel/P2/SomadorComparadorIfThenElse/simulation/qsim
+Esomadorcomparadorifthenelse
+Z1 w1664327550
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z5 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z11 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z12 8SomadorComparadorIfThenElse.vho
+Z13 FSomadorComparadorIfThenElse.vho
+l0
+L41
+VhC=TfZ>0g4gCjONz20NKc2
+!s100 lVMdHgOI;iIHzgYO2TN`E3
+Z14 OV;C;10.5b;63
+32
+Z15 !s110 1664327552
+!i10b 1
+Z16 !s108 1664327552.000000
+Z17 !s90 -work|work|SomadorComparadorIfThenElse.vho|
+Z18 !s107 SomadorComparadorIfThenElse.vho|
+!i113 1
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 27 somadorcomparadorifthenelse 0 22 hC=TfZ>0g4gCjONz20NKc2
+l95
+L51
+Vah`PgEiI1l1CQOHVHCmF;1
+!s100 ebekV_o@hB]S^ko]G@@AM1
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Esomadorcomparadorifthenelse_vhd_vec_tst
+Z21 w1664327547
+R9
+R10
+R0
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L31
+Vk<i^iWFREGR74JnDh>nC30
+!s100 aal7L0>5UQOdC[j;lMBi02
+R14
+32
+R15
+!i10b 1
+R16
+Z24 !s90 -work|work|Waveform.vwf.vht|
+Z25 !s107 Waveform.vwf.vht|
+!i113 1
+R19
+R20
+Asomadorcomparadorifthenelse_arch
+R9
+R10
+Z26 DEx4 work 39 somadorcomparadorifthenelse_vhd_vec_tst 0 22 k<i^iWFREGR74JnDh>nC30
+l50
+L33
+Z27 Vd5h7b6XIif5M6J@OzinQ63
+Z28 !s100 :0z`[a_KaHodVlD0PzHBZ2
+R14
+32
+R15
+!i10b 1
+R16
+R24
+R25
+!i113 1
+R19
+R20
