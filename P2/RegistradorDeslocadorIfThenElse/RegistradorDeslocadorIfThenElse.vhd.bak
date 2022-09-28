@@ -1,0 +1,26 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY RegistradorDeslocadorIfThenElse IS
+    PORT (
+        serial, clk : IN STD_LOGIC;
+        Q : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+    );
+END RegistradorDeslocadorIfThenElse;
+
+ARCHITECTURE logic OF RegistradorDeslocadorIfThenElse IS
+    SIGNAL aux : STD_LOGIC_VECTOR(3 DOWNTO 0);
+BEGIN
+    PROCESS (clk)
+    BEGIN
+        IF (clk'event AND clk = '1') THEN
+            lp : FOR i IN 0 TO 3 LOOP
+                IF i < 3 THEN
+                    Q(i) <= Q(i + 1);
+                ELSE
+                    Q(i) <= serial;
+                END IF;
+            END LOOP lp;
+        END IF;
+    END PROCESS;
+END logic;
