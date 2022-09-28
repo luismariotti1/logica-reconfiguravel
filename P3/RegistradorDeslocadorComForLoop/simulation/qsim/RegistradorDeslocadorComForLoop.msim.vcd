@@ -1,0 +1,326 @@
+$comment
+	File created using the following command:
+		vcd file RegistradorDeslocadorComForLoop.msim.vcd -direction
+$end
+$date
+	Wed Sep 28 15:09:05 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module registradordeslocadorcomforloop_vhd_vec_tst $end
+$var wire 1 ! clk $end
+$var wire 1 " Q [5] $end
+$var wire 1 # Q [4] $end
+$var wire 1 $ Q [3] $end
+$var wire 1 % Q [2] $end
+$var wire 1 & Q [1] $end
+$var wire 1 ' Q [0] $end
+$var wire 1 ( serial $end
+
+$scope module i1 $end
+$var wire 1 ) gnd $end
+$var wire 1 * vcc $end
+$var wire 1 + unknown $end
+$var wire 1 , devoe $end
+$var wire 1 - devclrn $end
+$var wire 1 . devpor $end
+$var wire 1 / ww_devoe $end
+$var wire 1 0 ww_devclrn $end
+$var wire 1 1 ww_devpor $end
+$var wire 1 2 ww_serial $end
+$var wire 1 3 ww_clk $end
+$var wire 1 4 ww_Q [5] $end
+$var wire 1 5 ww_Q [4] $end
+$var wire 1 6 ww_Q [3] $end
+$var wire 1 7 ww_Q [2] $end
+$var wire 1 8 ww_Q [1] $end
+$var wire 1 9 ww_Q [0] $end
+$var wire 1 : \Q[0]~output_o\ $end
+$var wire 1 ; \Q[1]~output_o\ $end
+$var wire 1 < \Q[2]~output_o\ $end
+$var wire 1 = \Q[3]~output_o\ $end
+$var wire 1 > \Q[4]~output_o\ $end
+$var wire 1 ? \Q[5]~output_o\ $end
+$var wire 1 @ \clk~input_o\ $end
+$var wire 1 A \serial~input_o\ $end
+$var wire 1 B \Q[5]~reg0_q\ $end
+$var wire 1 C \Q[4]~reg0_q\ $end
+$var wire 1 D \Q[3]~reg0_q\ $end
+$var wire 1 E \Q[2]~reg0_q\ $end
+$var wire 1 F \Q[1]~reg0_q\ $end
+$var wire 1 G \Q[0]~reg0_q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1(
+0)
+1*
+x+
+1,
+1-
+1.
+1/
+10
+11
+12
+03
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+1A
+0B
+0C
+0D
+0E
+0F
+0G
+0"
+0#
+0$
+0%
+0&
+0'
+04
+05
+06
+07
+08
+09
+$end
+#25000
+1!
+13
+1@
+1B
+1?
+14
+1"
+#50000
+0!
+03
+0@
+#75000
+1!
+13
+1@
+1C
+1>
+15
+1#
+#100000
+0!
+03
+0@
+#125000
+1!
+13
+1@
+1D
+1=
+16
+1$
+#150000
+0!
+03
+0@
+#175000
+1!
+13
+1@
+1E
+1<
+17
+1%
+#200000
+0!
+03
+0@
+#225000
+1!
+13
+1@
+1F
+1;
+18
+1&
+#250000
+0!
+03
+0@
+#275000
+1!
+13
+1@
+1G
+1:
+19
+1'
+#300000
+0!
+03
+0@
+#325000
+1!
+13
+1@
+#350000
+0!
+03
+0@
+#375000
+1!
+13
+1@
+#400000
+0!
+03
+0@
+#425000
+1!
+13
+1@
+#450000
+0!
+03
+0@
+#475000
+1!
+13
+1@
+#500000
+0!
+03
+0@
+#525000
+1!
+13
+1@
+#550000
+0!
+03
+0@
+#575000
+1!
+13
+1@
+#600000
+0!
+03
+0@
+#625000
+1!
+13
+1@
+#650000
+0!
+03
+0@
+#670000
+0(
+02
+0A
+#675000
+1!
+13
+1@
+0B
+0?
+04
+0"
+#700000
+0!
+03
+0@
+#725000
+1!
+13
+1@
+0C
+0>
+05
+0#
+#750000
+0!
+03
+0@
+#775000
+1!
+13
+1@
+0D
+0=
+06
+0$
+#800000
+0!
+03
+0@
+#825000
+1!
+13
+1@
+0E
+0<
+07
+0%
+#840000
+1(
+12
+1A
+#850000
+0!
+03
+0@
+#875000
+1!
+13
+1@
+1B
+0F
+0;
+1?
+08
+14
+0&
+1"
+#900000
+0!
+03
+0@
+#925000
+1!
+13
+1@
+1C
+0G
+0:
+1>
+09
+15
+0'
+1#
+#950000
+0!
+03
+0@
+#975000
+1!
+13
+1@
+1D
+1=
+16
+1$
+#1000000
