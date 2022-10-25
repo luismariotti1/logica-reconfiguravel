@@ -1,0 +1,11 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ENTITY porta_and IS
+    PORT (
+        w, c, d : IN STD_LOGIC;
+        y : OUT STD_LOGIC);
+END porta_and;
+ARCHITECTURE funcao OF porta_and IS
+BEGIN
+    y <= w NAND c NAND d;
+END funcao;

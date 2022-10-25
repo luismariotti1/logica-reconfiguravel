@@ -1,0 +1,11 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+ENTITY porta_inversora IS
+    PORT (
+        a : IN STD_LOGIC;
+        b : OUT STD_LOGIC);
+END porta_inversora;
+ARCHITECTURE funcao OF porta_inversora IS
+BEGIN
+    b <= NOT a;
+END funcao;

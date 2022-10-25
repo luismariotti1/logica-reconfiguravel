@@ -1,0 +1,33 @@
+|PreProva
+a => porta_and:U2.a
+b => porta_inversora:U1.b
+b => porta_and:U2.b
+c => porta_and_3:U3.c
+d => porta_and_3:U3.d
+x <= porta_and:U2.x
+y <= porta_inversora:U4.w
+
+
+|PreProva|porta_and_3:U3
+w => y.IN0
+c => y.IN1
+d => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PreProva|porta_inversora:U1
+b => w.DATAIN
+w <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PreProva|porta_inversora:U4
+b => w.DATAIN
+w <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PreProva|porta_and:U2
+a => x.IN0
+b => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
